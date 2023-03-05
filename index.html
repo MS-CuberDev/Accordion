@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Home Work | 6</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="accordions">
+      <div class="accordion">
+        <div onclick="openAccordionText()" class="accordion__head" data-name='spoiler-head' >
+          <h4 class="accordion__head-title">Accordion</h4>
+          <span class="accordion__head-arrow"></span>
+        </div>
+        <p
+          id="accordionText"
+          class="accordion__description"
+        >
+          To download the Scoot app, you can search “Scoot” in both the App and
+          Google Play stores. An even simpler way to do it would be to click the
+          relevant link at the bottom of this page and you’ll be re-directed to
+          the correct page.
+        </p>
+      </div>
+      <div class="accordion">
+        <div onclick="openAccordionText2()" class="accordion__head">
+          <h4 class="accordion__head-title">Accordion</h4>
+          <span class="accordion__head-arrow"></span>
+        </div>
+        <p
+          id="accordionText"
+          class="accordion__description accordion__text-hide"
+        >
+          To download the Scoot app, you can search “Scoot” in both the App and
+          Google Play stores. An even simpler way to do it would be to click the
+          relevant link at the bottom of this page and you’ll be re-directed to
+          the correct page.
+        </p>
+      </div>
+      <div class="accordion">
+        <div onclick="openAccordionText3()" class="accordion__head">
+          <h4 class="accordion__head-title">Accordion</h4>
+          <span class="accordion__head-arrow"></span>
+        </div>
+        <p
+          id="accordionText"
+          class="accordion__description accordion__text-hide"
+        >
+          To download the Scoot app, you can search “Scoot” in both the App and
+          Google Play stores. An even simpler way to do it would be to click the
+          relevant link at the bottom of this page and you’ll be re-directed to
+          the correct page.
+        </p>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
